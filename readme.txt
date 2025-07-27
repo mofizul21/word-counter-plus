@@ -3,7 +3,7 @@ Contributors: mofizul
 Tags: word counter, word counter wordpress post, Word Counter Plus, count words, Word Counter Plus in post column
 Requires at least: 4.9
 Tested up to: 6.8.1
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html

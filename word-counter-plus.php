@@ -2,7 +2,7 @@
 /*
 Plugin Name: Word Counter Plus
 Description: Track and display word count for WordPress posts, aiding in content creation and editing efficiency. Count words from Dashboard → Posts column.
-Version: 1.2.1
+Version: 1.2.2
 Author: Mofizul Islam
 Author URI: https://mofizul.com/
 License: GPL2 or later
