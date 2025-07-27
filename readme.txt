@@ -3,7 +3,7 @@ Contributors: mofizul
 Tags: word counter, word counter wordpress post, Word Counter Plus, count words, Word Counter Plus in post column
 Requires at least: 4.9
 Tested up to: 6.8.1
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -15,17 +15,17 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Designed for bloggers, writers, editors, and content teams, this powerful yet lightweight plugin automatically calculates and displays the word count of each post — directly inside your admin dashboard. Now includes a **Word Count Filter** to help you quickly find posts by length ranges.
 
 **Key Features:**
-* ✅ **Automatic Word Count Calculation** – Instantly counts words when you create or update a post.
-* 📊 **Word Count Column** – Adds a sortable 'Word Count' column to the Posts table in the admin dashboard.
-* 🔍 **Word Count Filter** – Easily filter posts by word count ranges like 0–600, 601–1000, and beyond.
-* 🧩 **Seamless Integration** – Designed to fit naturally into the WordPress interface with no extra clutter.
-* ⚙️ **Lightweight & Efficient** – No performance hit; updates word count only on save or update.
-* 🎯 **Writing Goal Support** – Great for content creators targeting specific word counts.
+✅ **Automatic Word Count Calculation** – Instantly counts words when you create or update a post.
+📊 **Word Count Column** – Adds a sortable 'Word Count' column to the Posts table in the admin dashboard.
+🔍 **Word Count Filter** – Easily filter posts by word count ranges like 0–600, 601–1000, and beyond.
+🧩 **Seamless Integration** – Designed to fit naturally into the WordPress interface with no extra clutter.
+⚙️ **Lightweight & Efficient** – No performance hit; updates word count only on save or update.
+🎯 **Writing Goal Support** – Great for content creators targeting specific word counts.
 
 Stay organized, improve readability, and meet your editorial goals with precision. Whether you're managing a blog, magazine, or marketing site, **Word Counter Plus** gives you the insights you need — at a glance.
 
 == Video Tutorial ==
-I'll include soon.
+Will be added soon.
 
 == Frequently Asked Questions ==
 
@@ -67,6 +67,9 @@ To use the Word Count Filter, go to your Posts table in the WordPress dashboard.
 
 
 == Changelog ==
+
+= 1.2.1 =
+Added post-filter screenshot and edited the plugin description.
 
 = 1.2.0 =
 Increase the plugin security.
