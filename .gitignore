@@ -1,0 +1,53 @@
+# IDE related files
+/.settings
+/.project
+/.idea
+*.esproj
+*.tmproj
+*.tmproject
+tmtags
+.*.sw[a-z]
+*.un~
+Session.vim
+*.swp
+
+# Mac OSX specific files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows specific files
+Thumbs.db
+Desktop.ini
+
+# NPM and Grunt.js related files
+node_modules
+bower_components
+*.log
+npm-debug.log
+
+# Composer related files
+/vendor
+
+# PHPUnit related files
+/tmp
+
+# Miscellaneous files
+*.zip
+.cache
+.sass-cache*
+.husky
+*.lock
+
+# Test related files
+codeception.yml
+.env
+/tests/_data/dump.sql
+.env.testing
+
+# Language files
+languages/*.
+
+# Build related files
+/assets
