@@ -49,5 +49,3 @@ codeception.yml
 # Language files
 languages/*.
 
-# Build related files
-/assets
