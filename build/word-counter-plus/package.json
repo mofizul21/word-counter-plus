@@ -1,0 +1,58 @@
+{
+	"name": "word-counter-plus",
+	"version": "1.0.0",
+	"description": "Word Counter Plus",
+	"main": "index.js",
+	"directories": {
+		"test": "tests"
+	},
+	"scripts": {
+		"watch": "clear && webpack --watch --mode development",
+		"compile": "clear && webpack --progress --mode production",
+		"translate": "wp i18n make-pot ./ languages/word-counter-plus.pot --exclude=builds/,node_modules/,src,builds --ignore-domain --allow-root",
+		"build": "clear && grunt preBuildClean && npm run compile && npm run translate && composer install --no-dev -o && grunt build && grunt finish",
+		"test:env:start": "node_modules/.bin/wp-env start",
+		"test:env:stop": "node_modules/.bin/wp-env stop",
+		"test:php": "node_modules/.bin/wp-env run phpunit -- --configuration phpunit.xml.dist",
+		"test:unit": "OUTPUT=$(./vendor/bin/phpunit -c phpunit.unit.xml 2>&1); if [ $? -eq 0 ]; then echo \"Unit tests passed successfully!\"; else echo \"$OUTPUT\"; exit 1; fi"
+	},
+	"author": "Mofizul",
+	"license": "GPL-3.0",
+	"dependencies": {
+		"@wordpress/api-fetch": "^6.43.0",
+		"@wordpress/element": "^5.23.0",
+		"@wpmudev/shared-ui": "2.12.23",
+		"is-even": "^1.0.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.17.8",
+		"@babel/preset-env": "^7.16.11",
+		"@babel/preset-react": "^7.16.7",
+		"@wordpress/env": "^8.7.0",
+		"@wordpress/scripts": "^26.17.0",
+		"babel-loader": "^8.2.4",
+		"clean-webpack-plugin": "^4.0.0",
+		"css-loader": "^6.7.1",
+		"eslint-plugin-react": "^7.29.4",
+		"grunt": "^1.0.4",
+		"grunt-checktextdomain": "^1.0.1",
+		"grunt-contrib-clean": "^2.0.0",
+		"grunt-contrib-compress": "^1.6.0",
+		"grunt-contrib-copy": "^1.0.0",
+		"grunt-contrib-rename": "^0.2.0",
+		"grunt-phpunit": "^0.3.6",
+		"grunt-replace": "^1.0.1",
+		"grunt-search": "^0.1.8",
+		"grunt-wp-i18n": "^1.0.3",
+		"gulp": "4.0.2",
+		"load-grunt-tasks": "^5.1.0",
+		"mini-css-extract-plugin": "^2.6.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"sass": "^1.56.1",
+		"sass-loader": "^12.6.0",
+		"style-loader": "^3.3.1",
+		"webpack": "^5.70.0",
+		"webpack-cli": "^4.9.2"
+	}
+}

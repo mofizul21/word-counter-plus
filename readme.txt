@@ -3,10 +3,13 @@ Contributors: mofizul
 Tags: word counter, word counter wordpress post, Word Counter Plus, count words, Word Counter Plus in post column
 Requires at least: 4.9
 Tested up to: 6.8.1
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+=== Short Description ===
+🔥 Supercharge your content workflow with **Word Counter Plus** — the ultimate tool for tracking, sorting, and filtering word counts in your WordPress posts!
 
 == Description ==
 
