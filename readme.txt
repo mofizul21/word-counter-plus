@@ -3,7 +3,7 @@ Contributors: mofizul
 Tags: word counter, word counter wordpress post, Word Counter Plus, count words, Word Counter Plus in post column
 Requires at least: 4.9
 Tested up to: 7.1
-Stable tag: 1.2.6
+Stable tag: 1.2.7
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -70,7 +70,7 @@ To use the Word Count Filter, go to your Posts table in the WordPress dashboard.
 
 == Changelog ==
 
-= 1.2.6 =
+= 1.2.7 =
 Tested up to WordPress 7.1. Fixed the readme short description.
 
 = 1.2.1 =
